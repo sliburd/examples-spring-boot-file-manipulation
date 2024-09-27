@@ -1,0 +1,58 @@
+# Compiled binaries
+*.class
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package directories
+node_modules/
+vendor/
+
+# Build output
+target/
+dist/
+build/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# System-specific files
+desktop.ini
+
+# Environment-specific files
+.env
+
+# Sensitive information
+*.key
+*.crt
+*.pem
+
+# Terraform state files (if using local backend)
+terraform.tfstate
+terraform.tfstate.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Java
+*.jar
+*.war
+
+# Go
+*.a
+
+# Other common patterns
+*.tmp
+*.bak
+*.swp
